@@ -33,12 +33,6 @@ const middleName = "Yuriiovuch";
 const lastName = "Hymcyk";
 console.log(`${firstName} ${middleName} ${lastName}`)
 
-let obj = {
-    Name: "Max",
-    surName: "Hymcyk"
-
-}
-console.log(obj);
 
 let a = 100;
 console.log(typeof a)
@@ -49,3 +43,12 @@ console.log(typeof b);
 let c = true;
 
 console.log(typeof c);
+
+let name = prompt("add name");
+let surname = prompt("add surname");
+let age =parseInt(prompt("add age"));
+console.log(age);
+
+let res2 = `${name} ${surname} ${age}`;
+console.log(res2);
+
