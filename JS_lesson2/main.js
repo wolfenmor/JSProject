@@ -90,7 +90,7 @@ console.log(Users[9].Password);
 //!!Логічні розгалуження:
     //!! Є змінна х, якій ви надаєте довільне числове значення. Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
-let x = 0;
+let x = -3;
 if (x !== 0) {
     console.log("true");
 
@@ -205,7 +205,51 @@ let coursesAndDurationArray = [
     {title: 'Frontend', monthDuration: 4}
 
 ];
-if (coursesAndDurationArray.monthDuration >=5) {
+if (coursesAndDurationArray[0].monthDuration >=5) {
     console.log("Super!");
 
+}
+else if (coursesAndDurationArray[0].monthDuration <=4){
+
+    console.log(":(");
+}
+if (coursesAndDurationArray[1].monthDuration >=5) {
+    console.log("Super!");
+
+}
+else if (coursesAndDurationArray[1].monthDuration <=4){
+
+    console.log(":(");
+}
+if (coursesAndDurationArray[2].monthDuration >=5) {
+    console.log("Super!");
+
+}
+else if (coursesAndDurationArray[2].monthDuration <=4){
+
+    console.log(":(");
+}
+if (coursesAndDurationArray[3].monthDuration >=5) {
+    console.log("Super!");
+
+}
+else if (coursesAndDurationArray[3].monthDuration <=4){
+
+    console.log(":(");
+}
+if (coursesAndDurationArray[4].monthDuration >=5) {
+    console.log("Super!");
+
+}
+else if (coursesAndDurationArray[4].monthDuration <=4){
+
+    console.log(":(");
+}
+if (coursesAndDurationArray[5].monthDuration >=5) {
+    console.log("Super!");
+
+}
+else if (coursesAndDurationArray[5].monthDuration <=4){
+
+    console.log(":(");
 }
