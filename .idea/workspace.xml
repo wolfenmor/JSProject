@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_lesson1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_lesson1/main.js" afterDir="false" />
+    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="Finish JS project 2">
+      <change afterPath="$PROJECT_DIR$/JS_lesson3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson3/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson3/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,11 +61,81 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675202576467</updated>
-      <workItem from="1675202577645" duration="4352000" />
+      <workItem from="1675202577645" duration="4591000" />
+      <workItem from="1675207626114" duration="74000" />
+      <workItem from="1675347450080" duration="2537000" />
+      <workItem from="1675373128829" duration="2461000" />
+      <workItem from="1675375614867" duration="5125000" />
+      <workItem from="1675430157540" duration="14243000" />
+      <workItem from="1675457539672" duration="10000" />
+      <workItem from="1675593502865" duration="1706000" />
+      <workItem from="1675864289660" duration="17415000" />
     </task>
+    <task id="LOCAL-00001" summary="Add first lesson JS">
+      <created>1675207359460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675207359461</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trial">
+      <created>1675207379811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675207379811</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Trial">
+      <created>1675378838680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675378838680</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Start JS project 2">
+      <created>1675380710134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675380710134</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add JS project 2 without last task">
+      <created>1675457508787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675457508787</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finish JS project 2">
+      <created>1675595205147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675595205147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add first lesson JS" />
+    <MESSAGE value="Trial" />
+    <MESSAGE value="Start JS project 2" />
+    <MESSAGE value="Add JS project 2 without last task" />
+    <MESSAGE value="Finish JS project 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish JS project 2" />
   </component>
 </project>

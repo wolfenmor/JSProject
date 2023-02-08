@@ -1,30 +1,32 @@
 //!! Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 let names = ["James", "Lily", "Sirius", "Harry", "Lupin", "Germione", "Ron", "Cho", "Severus", "Dumbledore"]
 console.log(names.length)
-console.log(names);
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
 //
 
 //!! Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 
-let Harry5 ={
+let harry5 ={
     title: "Harry Potter and Order of Phoenix",
-    Pages: 766,
+    pages: 766,
     genre: "fantasy literature"
 }
-console.log(Harry5);
+console.log(harry5);
 
-let Harry3 ={
+let harry3 ={
     title: "Harry Potter and Prisoner of Azkaban",
-    Pages: 317,
+    pages: 317,
     genre: "fantasy literature"
 }
-console.log(Harry3);
-let Harry4 ={
+console.log(harry3);
+let harry4 ={
     title: "Harry Potter and the Goblet of Fire",
-    Pages: 636,
+    pages: 636,
     genre: "fantasy literature"
 }
-console.log(Harry4);
+console.log(harry4);
 //
 
 //!! Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
@@ -61,7 +63,7 @@ console.log(Harry7);
 
 //!! Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
-let Users =[
+let users =[
     {name: "Leanne Graham", username: "Bred", Password: 18231},
     {name: "Ervin Howell", username: "Antonette", Password: 65334},
     {name: "Clementine Bauch", username: "Samantha", Password: 34522},
@@ -75,16 +77,10 @@ let Users =[
 
 
 ]
-console.log(Users[0].Password);
-console.log(Users[1].Password);
-console.log(Users[2].Password);
-console.log(Users[3].Password);
-console.log(Users[4].Password);
-console.log(Users[5].Password);
-console.log(Users[6].Password);
-console.log(Users[7].Password);
-console.log(Users[8].Password);
-console.log(Users[9].Password);
+for (let i = 0; i < users.length; i++) {
+    const user = users[i];
+    console.log(user.Password)
+}
 //
 
 //!!Логічні розгалуження:
