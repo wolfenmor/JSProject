@@ -6,7 +6,7 @@ for (let i = 0; i < 10; i++) {
 //За допомогою циклу for і document.write()
 //вивести 10 блоків div c довільним текстом і індексом всередині
 for (let i1 = 0; i1 < 10; i1++) {
-    document.write(`<div>довільний текст всередині</div>${i1} `)
+    document.write(`<div>довільний текст всередині${i1}</div> `)
 }
 
 
@@ -70,7 +70,7 @@ for (let product of products) {
     document.write(`<div class="card">
 <h3> Title ${product.title}</h3>
 <p>Price ${product.price}</p>
-<img src="${product.image}" alt="title">
+<img src="${product.image}" alt="product">
 </div>`)
 }
 
@@ -94,20 +94,22 @@ let users = [
     {name: 'olya', age: 31, status: false},
     {name: 'max', age: 31, status: true}
 ];
-for (const user of users) {
-    if (user.status) {
+for (let k = 0; k < users.length; k++) {
+    const user = users[k];
+    if (user.status){
+        console.log(user);
+    }
+}
+for (let k = 0; k < users.length; k++) {
+    const user = users[k];
+    if (!user.status){
         console.log(user);
     }
 }
 
-for (const user of users) {
-    if (!user.status) {
+for (let k = 0; k < users.length; k++) {
+    const user = users[k];
+    if (user.age >= 30){
         console.log(user);
-    }
-}
-for (const user of users) {
-    if (user.age >=30 ) {
-        console.log(user);
-
     }
 }
