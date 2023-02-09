@@ -201,51 +201,13 @@ let coursesAndDurationArray = [
     {title: 'Frontend', monthDuration: 4}
 
 ];
-if (coursesAndDurationArray[0].monthDuration >=5) {
-    console.log("Super!");
+for (let i = 0; i < coursesAndDurationArray.length; i++) {
+    const course = coursesAndDurationArray[i];
 
-}
-else if (coursesAndDurationArray[0].monthDuration <=4){
-
-    console.log(":(");
-}
-if (coursesAndDurationArray[1].monthDuration >=5) {
-    console.log("Super!");
-
-}
-else if (coursesAndDurationArray[1].monthDuration <=4){
-
-    console.log(":(");
-}
-if (coursesAndDurationArray[2].monthDuration >=5) {
-    console.log("Super!");
-
-}
-else if (coursesAndDurationArray[2].monthDuration <=4){
-
-    console.log(":(");
-}
-if (coursesAndDurationArray[3].monthDuration >=5) {
-    console.log("Super!");
-
-}
-else if (coursesAndDurationArray[3].monthDuration <=4){
-
-    console.log(":(");
-}
-if (coursesAndDurationArray[4].monthDuration >=5) {
-    console.log("Super!");
-
-}
-else if (coursesAndDurationArray[4].monthDuration <=4){
-
-    console.log(":(");
-}
-if (coursesAndDurationArray[5].monthDuration >=5) {
-    console.log("Super!");
-
-}
-else if (coursesAndDurationArray[5].monthDuration <=4){
-
-    console.log(":(");
+    if (course.monthDuration >= 5){
+        console.log("Super");
+    }
+    else if (course.monthDuration < 5){
+        console.log(":(");
+    }
 }
