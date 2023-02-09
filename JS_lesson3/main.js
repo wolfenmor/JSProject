@@ -66,13 +66,14 @@ let products = [
     },
 ];
         document.write(`<div class="main">`);
-    for (let product of products) {
+for (let k = 0; k < products.length; k++) {
+    const product = products[k];
     document.write(`<div class="card">
     <h3> Title ${product.title}</h3>
     <p>Price ${product.price}</p>
     <img src="${product.image}" alt="product">
         </div>`)
-    }
+}
 
         document.write(`</div>`)
 
