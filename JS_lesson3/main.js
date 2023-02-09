@@ -95,21 +95,18 @@ let users = [
     {name: 'olya', age: 31, status: false},
     {name: 'max', age: 31, status: true}
 ];
-for (let k = 0; k < users.length; k++) {
-    const user = users[k];
+for (let user of users) {
     if (user.status){
         console.log(user);
     }
 }
-for (let k = 0; k < users.length; k++) {
-    const user = users[k];
+for (let user of users) {
     if (!user.status){
         console.log(user);
     }
 }
 
-for (let k = 0; k < users.length; k++) {
-    const user = users[k];
+for (let user of users) {
     if (user.age >= 30){
         console.log(user);
     }
