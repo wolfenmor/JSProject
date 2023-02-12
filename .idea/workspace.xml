@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="Finish JS project 3" />
+    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="changed lesson 2 and 3. Add some from JS project 3 additional.js">
+      <change afterPath="$PROJECT_DIR$/JS_lesson4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson4/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +77,8 @@
       <workItem from="1675593502865" duration="1706000" />
       <workItem from="1675864289660" duration="17954000" />
       <workItem from="1675887226197" duration="57000" />
-      <workItem from="1675932749705" duration="2222000" />
+      <workItem from="1675932749705" duration="10696000" />
+      <workItem from="1676204968718" duration="14012000" />
     </task>
     <task id="LOCAL-00001" summary="Add first lesson JS">
       <created>1675207359460</created>
@@ -138,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675935296498</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finish JS project 3">
+      <created>1675935546739</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675935546739</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Finish JS project 3">
+      <created>1675935904823</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675935904823</updated>
+    </task>
+    <task id="LOCAL-00012" summary="changed lesson 2 and 3. Add some from JS project 3 additional.js">
+      <created>1675960230445</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675960230445</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +188,7 @@
     <MESSAGE value="Add JS project 2 without last task" />
     <MESSAGE value="Finish JS project 2" />
     <MESSAGE value="Finish JS project 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish JS project 3" />
+    <MESSAGE value="changed lesson 2 and 3. Add some from JS project 3 additional.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed lesson 2 and 3. Add some from JS project 3 additional.js" />
   </component>
 </project>
