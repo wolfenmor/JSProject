@@ -128,15 +128,19 @@ loo2(array1)
 
 // створити функцію яка повертає найменьше число з масиву
 
-let array2 = [12, 22, 21, 45]
-function f(nums) {
-    for (const num of nums) {
-        if (num <= 0 && 10) {
-            console.log(num);
-        }
-        else if (num <= 10 && 20 ){
-            console.log(num);
-        }
+
+
+//
+
+// створити функцію sum(arr)яка приймає масив чисел,
+// сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
+
+let num = [1, 2, 10]
+function sum (arr){
+    let s = 0;
+    for (j = 0; j < arr.length; j++){
+        s += arr[j]
     }
+    return s
 }
-f(array2)
+console.log(sum(num));
