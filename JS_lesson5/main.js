@@ -1,16 +1,13 @@
 // створити функцію яка обчислює
 // та повертає площу прямокутника зі сторонами а і б
-function rec (a, b){
-    let result = a + b * 2;
-    return result;
-}
+let rec = (a, b) => a + b * 2;
 console.log(rec(15, 20))
 //
 
 
 //створити функцію яка обчислює
 //та повертає площу кола з радіусом r
-function circle(radius) {
+let circle = (radius) => {
     let result = 100 / radius;
     console.log(result);
     return 100 / radius;
@@ -21,10 +18,7 @@ circle(20);
 
 //створити функцію яка обчислює
 // та повертає площу циліндру висотою h, та радіутом r
-function cyl (h, r){
-    let result = h * r;
-    return result;
-}
+let cyl = (h, r) => h * r;
 console.log(cyl(12, 8))
 //
 
@@ -38,17 +32,17 @@ let text = [
 ]
 
 
-function looper (arr) {
-    for (const element of arr) {
-        console.log(element);
+let looper = (arr) => {
+    for (const item of arr) {
+        console.log(item);
     }
 }
 looper(text);
 
 // створити функцію яка створює параграф з текстом.
-  //  Текст задати через аргумент
+//  Текст задати через аргумент
 
-function t (text){
+let t = (text) => {
     let html =`<div>
 <p>${text}</p>
 
@@ -62,12 +56,15 @@ t("lorem5");
 
 
 //створити функцію яка створює ul з трьома елементами li.
-    // Текст li задати через аргумент всім однаковий
+// Текст li задати через аргумент всім однаковий
 
-function foo (text,) {
+let foo = (text) => {
     document.write(`<ul>`);
 
-        document.write(`<li>${text}</li><li>${text}</li><li>${text}</li>`);
+    document.write(`<li>${text}</li>
+<li>${text}</li>
+<li>${text}</li>
+`);
 
     document.write(`</ul>`)
 
@@ -78,8 +75,8 @@ foo("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, obcae
 //
 
 //створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
-    //Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
-function l (text) {
+//Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+let l = (text) => {
     document.write(`<ul>`);
     for (let i = 0; i < 3; i++) {
 
@@ -97,7 +94,7 @@ l("Lorem ipsum dolor sit amet.")
 
 
 let array = [12, "maks", true, false]
-function loo1 (elements){
+let loo1 = (elements) => {
     document.write(`<ul>`)
     for (const element of elements) {
 
@@ -113,7 +110,7 @@ loo1(array)
 // та виводить їх в документ. Для кожного об'єкту окремий блок.
 
 let array1 = [{id:1, name: "Maks", age: 12 }]
-function loo2 (elements){
+let loo2 = (elements) => {
     document.write(`<div>`)
     for (let element of elements) {
 
@@ -127,7 +124,7 @@ loo2(array1)
 
 
 // створити функцію яка повертає найменьше число з масиву
-function num1(numbers) {
+let num1 = (numbers) => {
     let basket = numbers[0];
 
     for (const number of numbers) {
@@ -144,7 +141,7 @@ console.log(num1([12, 33, 12,8]))
 // сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 
 let num = [1, 2, 10]
-function sum (arr){
+let sum = (arr) => {
     let s = 0;
     for (const number of arr) {
         s += number;
@@ -157,7 +154,7 @@ console.log(sum(num));
 // Функція міняє місцями заняення у відаовідних індексах
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 swap([11,22,33,44], 0, 1)
-function swap(arr, index1, index2) {
+function swap (arr, index1, index2) {
     let v1 = arr[index1]
     let v2 = arr[index2];
     arr[index1] = v2;
