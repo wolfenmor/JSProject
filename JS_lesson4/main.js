@@ -179,3 +179,4 @@ function exchange (uah, currencies, exitCurrency){
 }
 exchange(10000,[{currency:'USD',value: 40},{currency:'EUR',value: 42}, {currency: "GBP", value: 43}], 'USD')
 
+exchange()
