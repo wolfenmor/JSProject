@@ -119,51 +119,42 @@ console.log(map1);
 // - всі буби
 // - всі трефи від 9 та більше
 deck = [
-    { cardSuit: 'spade', value: '6', color: 'black' },
-    { cardSuit: 'spade', value: '7', color: 'black' },
-    { cardSuit: 'spade', value: '8', color: 'black' },
-    { cardSuit: 'spade', value: '9', color: 'black' },
-    { cardSuit: 'spade', value: '10', color: 'black' },
-    { cardSuit: 'spade', value: 'jack', color: 'black' },
-    { cardSuit: 'spade', value: 'queen', color: 'black' },
-    { cardSuit: 'spade', value: 'king', color: 'black' },
-    { cardSuit: 'spade', value: 'ace', color: 'black' },
-    { cardSuit: 'spade', value: '6', color: 'red' },
-    { cardSuit: 'spade', value: '7', color: 'red' },
-    { cardSuit: 'spade', value: '8', color: 'red' },
-    { cardSuit: 'spade', value: '9', color: 'red' },
-    { cardSuit: 'spade', value: '10', color: 'red' },
-    { cardSuit: 'spade', value: 'jack', color: 'red' },
-    { cardSuit: 'spade', value: 'queen', color: 'red' },
-    { cardSuit: 'spade', value: 'king', color: 'red' },
-    { cardSuit: 'spade', value: 'ace', color: 'red' },
-    { cardSuit: 'diamond', value: '6', color: 'red' },
-    { cardSuit: 'diamond', value: '7', color: 'red' },
-    { cardSuit: 'diamond', value: '8', color: 'red' },
-    { cardSuit: 'diamond', value: '9', color: 'red' },
-    { cardSuit: 'diamond', value: '10', color: 'red' },
-    { cardSuit: 'diamond', value: 'jack', color: 'red' },
-    { cardSuit: 'diamond', value: 'queen', color: 'red' },
-    { cardSuit: 'diamond', value: 'king', color: 'red' },
-    { cardSuit: 'diamond', value: 'ace', color: 'red' },
-    { cardSuit: 'heart', value: '6', color: 'red' },
-    { cardSuit: 'heart', value: '7', color: 'red' },
-    { cardSuit: 'heart', value: '8', color: 'red' },
-    { cardSuit: 'heart', value: '9', color: 'red' },
-    { cardSuit: 'heart', value: '10', color: 'red' },
-    { cardSuit: 'heart', value: 'jack', color: 'red' },
-    { cardSuit: 'heart', value: 'queen', color: 'red' },
-    { cardSuit: 'heart', value: 'king', color: 'red' },
-    { cardSuit: 'heart', value: 'ace', color: 'red' },
-    { cardSuit: 'club', value: '6', color: 'black' },
-    { cardSuit: 'club', value: '7', color: 'black' },
-    { cardSuit: 'club', value: '8', color: 'black' },
-    { cardSuit: 'club', value: '9', color: 'black' },
-    { cardSuit: 'club', value: '10', color: 'black' },
-    { cardSuit: 'club', value: 'jack', color: 'black' },
-    { cardSuit: 'club', value: 'queen', color: 'black' },
-    { cardSuit: 'club', value: 'king', color: 'black' },
-    { cardSuit: 'club', value: 'ace', color: 'black' },
+    { cardSuit: "spade", value: '6', color: "black" },
+    { cardSuit: "spade", value: '7', color: "black" },
+    { cardSuit: "spade", value: '8', color: "black" },
+    { cardSuit: "spade", value: '9', color: "black" },
+    { cardSuit: "spade", value: '10', color: "black" },
+    { cardSuit: "spade", value: 'jack', color: "black" },
+    { cardSuit: "spade", value: 'queen', color: "black" },
+    { cardSuit: "spade", value: 'king', color: "black" },
+    { cardSuit: "spade", value: 'ace', color: "black" },
+    { cardSuit: "diamond", value: '6', color: 'red' },
+    { cardSuit: "diamond", value: '7', color: 'red' },
+    { cardSuit: "diamond", value: '8', color: 'red' },
+    { cardSuit: "diamond", value: '9', color: 'red' },
+    { cardSuit: "diamond", value: '10', color: 'red' },
+    { cardSuit: "diamond", value: 'jack', color: 'red' },
+    { cardSuit: "diamond", value: 'queen', color: 'red' },
+    { cardSuit: "diamond", value: 'king', color: 'red' },
+    { cardSuit: "diamond", value: 'ace', color: 'red' },
+    { cardSuit: "heart", value: '6', color: 'red' },
+    { cardSuit: "heart", value: '7', color: 'red' },
+    { cardSuit: "heart", value: '8', color: 'red' },
+    { cardSuit: "heart", value: '9', color: 'red' },
+    { cardSuit: "heart", value: '10', color: 'red' },
+    { cardSuit: "heart", value: 'jack', color: 'red' },
+    { cardSuit: "heart", value: 'queen', color: 'red' },
+    { cardSuit: "heart", value: 'king', color: 'red' },
+    { cardSuit: "heart", value: 'ace', color: 'red' },
+    { cardSuit: "club", value: '6', color: 'black' },
+    { cardSuit: "club", value: '7', color: 'black' },
+    { cardSuit: "club", value: '8', color: 'black' },
+    { cardSuit: "club", value: '9', color: 'black' },
+    { cardSuit: "club", value: '10', color: 'black' },
+    { cardSuit: "club", value: 'jack', color: 'black' },
+    { cardSuit: "club", value: 'queen', color: 'black' },
+    { cardSuit: "club", value: 'king', color: 'black' },
+    { cardSuit: "club", value: 'ace', color: 'black' },
 ]
 
 // знайти піковий туз
@@ -174,13 +165,14 @@ console.log(splice1);
 
 // всі червоні карти
 
-let filter2 = deck.filter(d => d.color = "red");
+
+let filter2 = deck.filter(d => d.color.includes("red"));
 console.log(filter2);
 
 //всі буби
 
-let splice3 = deck.splice(16,9);
-console.log(splice3);
+let filter3 = deck.filter(value => value.cardSuit.includes("heart"));
+console.log(filter3);
 
 // всі трефи від 9 та більше
 
@@ -190,9 +182,100 @@ console.log(splice2);
 // Взяти описану колоду карт, та за допомоги reduce
 // упакувати всі карти по "мастях" в об'єкт
 
-let cards = {
-    spades:[],
-        diamonds:[],
-    hearts:[],
-    clubs:[]
-}
+
+
+console.log(deck.reduce((accumulator, value) => {
+    if (value.cardSuit === "spade") {
+        accumulator.spades.push(value);
+    }else if (value.cardSuit === "diamond") {
+        accumulator.diamonds.push(value);
+    } else if (value.cardSuit === "heart") {
+        accumulator.hearts.push(value);
+    } else if (value.cardSuit === "club") {
+        accumulator.clubs.push(value);
+    }
+    return accumulator;
+}, {spades: [], diamonds: [], hearts: [], clubs: []} ))
+
+// написати пошук всіх об'єктів, в який в modules є sass
+// написати пошук всіх об'єктів, в який в modules є docker
+
+let coursesArray = [
+    {
+        title: 'JavaScript Complex',
+        monthDuration: 5,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+    },
+    {
+        title: 'Java Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'java core',
+            'java advanced']
+    },
+    {
+        title: 'Python Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'python core',
+            'python advanced']
+    },
+    {
+        title: 'QA Complex',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+    },
+    {
+        title: 'FullStack',
+        monthDuration: 7,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'react',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'node.js',
+            'python',
+            'java']
+    },
+    {
+        title: 'Frontend',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+    }
+];
+
+let sass1 = coursesArray.filter(value =>
+value.modules.includes("sass"))
+
+console.log(sass1);
+
+let docker1 = coursesArray.filter(value =>
+    value.modules.includes("docker"))
+
+console.log(docker1);
