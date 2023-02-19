@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="changed lesson 2 and 3. Add some from JS project 3 additional.js">
-      <change afterPath="$PROJECT_DIR$/JS_lesson4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_lesson4/main.js" afterDir="false" />
+    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="add half of lesson6 index.html, main.js">
+      <change afterPath="$PROJECT_DIR$/JS_lesson2/main1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,15 @@
       <workItem from="1675864289660" duration="17954000" />
       <workItem from="1675887226197" duration="57000" />
       <workItem from="1675932749705" duration="10696000" />
-      <workItem from="1676204968718" duration="14012000" />
+      <workItem from="1676204968718" duration="14192000" />
+      <workItem from="1676284906139" duration="5617000" />
+      <workItem from="1676388075939" duration="4503000" />
+      <workItem from="1676413581437" duration="2073000" />
+      <workItem from="1676415675525" duration="117000" />
+      <workItem from="1676416107774" duration="143000" />
+      <workItem from="1676665672645" duration="11497000" />
+      <workItem from="1676677210768" duration="17000" />
+      <workItem from="1676752113742" duration="17457000" />
     </task>
     <task id="LOCAL-00001" summary="Add first lesson JS">
       <created>1675207359460</created>
@@ -164,7 +173,35 @@
       <option name="project" value="LOCAL" />
       <updated>1675960230445</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add lesson4">
+      <created>1676225310934</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676225310934</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add lesson4">
+      <created>1676289971915</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676289971915</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change lesson4(5)">
+      <created>1676415743468</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676415743468</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add half of lesson6 index.html, main.js">
+      <created>1676677181388</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676677181388</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +226,9 @@
     <MESSAGE value="Finish JS project 2" />
     <MESSAGE value="Finish JS project 3" />
     <MESSAGE value="changed lesson 2 and 3. Add some from JS project 3 additional.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed lesson 2 and 3. Add some from JS project 3 additional.js" />
+    <MESSAGE value="add lesson4" />
+    <MESSAGE value="change lesson4(5)" />
+    <MESSAGE value="add half of lesson6 index.html, main.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add half of lesson6 index.html, main.js" />
   </component>
 </project>

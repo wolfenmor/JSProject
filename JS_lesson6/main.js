@@ -97,7 +97,7 @@ console.log((courses))
 // відфільтрувати , залишивши тільки курси з тривалістю
 // більше 5 місяців
 
-let filter = courses.filter( value => value.monthDuration >= 5)
+let filter = courses.filter( value => value.monthDuration > 5)
 console.log(filter)
 
 // за допомоги map перетворити кожен елемент
@@ -111,3 +111,88 @@ let map1 = courses.map(function (value, index) {
     }
 });
 console.log(map1);
+
+// описати колоду карт (від 6 до туза без джокерів)
+// - знайти піковий туз
+// - всі шістки
+// - всі червоні карти
+// - всі буби
+// - всі трефи від 9 та більше
+deck = [
+    { cardSuit: 'spade', value: '6', color: 'black' },
+    { cardSuit: 'spade', value: '7', color: 'black' },
+    { cardSuit: 'spade', value: '8', color: 'black' },
+    { cardSuit: 'spade', value: '9', color: 'black' },
+    { cardSuit: 'spade', value: '10', color: 'black' },
+    { cardSuit: 'spade', value: 'jack', color: 'black' },
+    { cardSuit: 'spade', value: 'queen', color: 'black' },
+    { cardSuit: 'spade', value: 'king', color: 'black' },
+    { cardSuit: 'spade', value: 'ace', color: 'black' },
+    { cardSuit: 'spade', value: '6', color: 'red' },
+    { cardSuit: 'spade', value: '7', color: 'red' },
+    { cardSuit: 'spade', value: '8', color: 'red' },
+    { cardSuit: 'spade', value: '9', color: 'red' },
+    { cardSuit: 'spade', value: '10', color: 'red' },
+    { cardSuit: 'spade', value: 'jack', color: 'red' },
+    { cardSuit: 'spade', value: 'queen', color: 'red' },
+    { cardSuit: 'spade', value: 'king', color: 'red' },
+    { cardSuit: 'spade', value: 'ace', color: 'red' },
+    { cardSuit: 'diamond', value: '6', color: 'red' },
+    { cardSuit: 'diamond', value: '7', color: 'red' },
+    { cardSuit: 'diamond', value: '8', color: 'red' },
+    { cardSuit: 'diamond', value: '9', color: 'red' },
+    { cardSuit: 'diamond', value: '10', color: 'red' },
+    { cardSuit: 'diamond', value: 'jack', color: 'red' },
+    { cardSuit: 'diamond', value: 'queen', color: 'red' },
+    { cardSuit: 'diamond', value: 'king', color: 'red' },
+    { cardSuit: 'diamond', value: 'ace', color: 'red' },
+    { cardSuit: 'heart', value: '6', color: 'red' },
+    { cardSuit: 'heart', value: '7', color: 'red' },
+    { cardSuit: 'heart', value: '8', color: 'red' },
+    { cardSuit: 'heart', value: '9', color: 'red' },
+    { cardSuit: 'heart', value: '10', color: 'red' },
+    { cardSuit: 'heart', value: 'jack', color: 'red' },
+    { cardSuit: 'heart', value: 'queen', color: 'red' },
+    { cardSuit: 'heart', value: 'king', color: 'red' },
+    { cardSuit: 'heart', value: 'ace', color: 'red' },
+    { cardSuit: 'club', value: '6', color: 'black' },
+    { cardSuit: 'club', value: '7', color: 'black' },
+    { cardSuit: 'club', value: '8', color: 'black' },
+    { cardSuit: 'club', value: '9', color: 'black' },
+    { cardSuit: 'club', value: '10', color: 'black' },
+    { cardSuit: 'club', value: 'jack', color: 'black' },
+    { cardSuit: 'club', value: 'queen', color: 'black' },
+    { cardSuit: 'club', value: 'king', color: 'black' },
+    { cardSuit: 'club', value: 'ace', color: 'black' },
+]
+
+// знайти піковий туз
+let splice = deck.splice(8,1);
+console.log(splice);
+let splice1 = deck.splice(16, 1);
+console.log(splice1);
+
+// всі червоні карти
+
+let filter2 = deck.filter(d => d.color = "red");
+console.log(filter2);
+
+//всі буби
+
+let splice3 = deck.splice(16,9);
+console.log(splice3);
+
+// всі трефи від 9 та більше
+
+let splice2 = deck.splice(28, 7);
+console.log(splice2);
+
+// Взяти описану колоду карт, та за допомоги reduce
+// упакувати всі карти по "мастях" в об'єкт
+
+let cards = {
+    spades:[],
+        diamonds:[],
+    hearts:[],
+    clubs:[]
+}
