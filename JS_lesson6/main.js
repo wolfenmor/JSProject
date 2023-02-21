@@ -158,11 +158,10 @@ deck = [
 ]
 
 // знайти піковий туз
-let splice = deck.splice(8,1);
-console.log(splice);
-let splice1 = deck.splice(16, 1);
-console.log(splice1);
 
+
+let find = deck.find((card) => card.cardSuit === "spade" && card.value === "ace");
+console.log(find);
 // всі червоні карти
 
 
@@ -176,8 +175,8 @@ console.log(filter3);
 
 // всі трефи від 9 та більше
 
-let splice2 = deck.splice(28, 7);
-console.log(splice2);
+let filter4 = deck.filter((value) => ["9", "10", "jack", "queen", "king", "ace"].includes(value.value) )
+console.log(filter4);
 
 // Взяти описану колоду карт, та за допомоги reduce
 // упакувати всі карти по "мастях" в об'єкт
