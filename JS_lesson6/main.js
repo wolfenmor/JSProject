@@ -78,6 +78,18 @@ let sortNums1 = nums.sort((a, b)=> {
 })
 console.log(sortNums1);
 
+let sortNums2 = (arr, order) => {
+    switch (order) {
+        case "ascending" :
+            return arr.sort((a, b) => a - b);
+        case  "descending":
+            return arr.sort((a, b) => b -a);
+    }
+}
+
+console.log(sortNums2(nums, "ascending"));
+console.log(sortNums2(nums, "descending"));
+
 let courses = [
     {title: 'JavaScript Complex', monthDuration: 5},
     {title: 'Java Complex', monthDuration: 6},
@@ -86,7 +98,6 @@ let courses = [
     {title: 'FullStack', monthDuration: 7},
     {title: 'Frontend', monthDuration: 4}
 ];
-
 //відсортувати його за спаданням за monthDuration
 
 courses.sort((a, b) => {
@@ -156,14 +167,11 @@ deck = [
     { cardSuit: "club", value: 'king', color: 'black' },
     { cardSuit: "club", value: 'ace', color: 'black' },
 ]
-
 // знайти піковий туз
-
 
 let find = deck.find((card) => card.cardSuit === "spade" && card.value === "ace");
 console.log(find);
 // всі червоні карти
-
 
 let filter2 = deck.filter(d => d.color.includes("red"));
 console.log(filter2);
@@ -180,8 +188,6 @@ console.log(filter4);
 
 // Взяти описану колоду карт, та за допомоги reduce
 // упакувати всі карти по "мастях" в об'єкт
-
-
 
 console.log(deck.reduce((accumulator, value) => {
     if (value.cardSuit === "spade") {

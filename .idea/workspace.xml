@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="add half of lesson6 index.html, main.js">
-      <change afterPath="$PROJECT_DIR$/JS_lesson2/main1.js" afterDir="false" />
+    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="changed lesson6 main.js">
+      <change afterPath="$PROJECT_DIR$/JS_lesson4/tasks2/additional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson4/tasks2/additional.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4/task4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4/task4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_lesson6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson3/additional/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson3/additional/additional.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS_lesson6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maksim K\IdeaProjects\JSProject\JS_lesson4\additional" />
       <recent name="C:\Users\Maksim K\IdeaProjects\JSProject\JS_lesson3\additional" />
     </key>
   </component>
@@ -87,7 +91,9 @@
       <workItem from="1676416107774" duration="143000" />
       <workItem from="1676665672645" duration="11497000" />
       <workItem from="1676677210768" duration="17000" />
-      <workItem from="1676752113742" duration="17457000" />
+      <workItem from="1676752113742" duration="17958000" />
+      <workItem from="1676815171108" duration="5654000" />
+      <workItem from="1676996631195" duration="17621000" />
     </task>
     <task id="LOCAL-00001" summary="Add first lesson JS">
       <created>1675207359460</created>
@@ -201,7 +207,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676677181388</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add half of lesson6 index.html, main.js">
+      <created>1676812221934</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676812221934</updated>
+    </task>
+    <task id="LOCAL-00018" summary="end lesson6">
+      <created>1676820820277</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676820820277</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changed lesson6 main.js">
+      <created>1676998880638</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676998880638</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +256,8 @@
     <MESSAGE value="add lesson4" />
     <MESSAGE value="change lesson4(5)" />
     <MESSAGE value="add half of lesson6 index.html, main.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add half of lesson6 index.html, main.js" />
+    <MESSAGE value="end lesson6" />
+    <MESSAGE value="changed lesson6 main.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed lesson6 main.js" />
   </component>
 </project>

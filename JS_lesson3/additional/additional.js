@@ -39,10 +39,23 @@ for (let j = 0; j < str1.length; j++) {
     console.log(str);
 
 }
-let k = 0;
-while (k < str1.length) {
-    let str = str1[k];
 
-    console.log(str);
-    i++
+// Створити масив з 10 числових елементів.
+// Вивести в консоль всі його елементи в циклі.
+
+let num1 = [12,22,11,43,54,756,887,98,99,100];
+for (const number of num1) {
+    console.log(number);
+}
+
+// Створити масив з 10 елементів числового, стірчкового і булевого типу.
+// За допомогою if та typeof вивести тільки булеві елементи
+
+let arr = [13,true,false,"valera", 22,43,true,"xxx","asas"];
+for (let j = 0; j < arr.length; j++) {
+    const item = arr[j];
+    if (item === typeof "") {
+        console.log(item);
+    }
+
 }
