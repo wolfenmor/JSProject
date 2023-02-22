@@ -39,3 +39,20 @@ console.log(reversed)
 let fun = [1,2,3,4];
 let fun1 = [2,3,4,5];
 console.log(fun.concat(fun1))
+
+//Створити функцію яка приймає масив будь яких объектів,
+// та повертає масив ключів всіх обєктів
+
+let user = [
+    {name: "Dima",
+    age: 13,
+    },
+    {model: "Camry"}
+]
+for (let item of user){
+    console.log(item)
+}
+
+for (let item in user){
+    console.log(user[item]);
+}
