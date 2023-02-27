@@ -79,7 +79,9 @@ function Car (model, manufacturer, year, maxSpeed, capacity) {
     this.maxSpeed = maxSpeed;
     this.capacity = capacity;
 
-    this.drive = () => `їдемо зі швидкістю ${this.maxSpeed} на годину`;
+    this.drive = () => `їдемо зі швидкістю ${this.maxSpeed} на годину`
+
+    this.info = () => (`model: ${this.model}, manufacturer: ${this.manufacturer}, year: ${this.year}, maximal speed: ${this.maxSpeed}, capacity: ${this.capacity}`)
 
     this.increaseMaxSpeed = (newSpeed) => {
         this.maxSpeed = newSpeed;
@@ -105,8 +107,7 @@ console.log(car1.drive());
 // info () - яка виводить
 // всю інформацію про автомобіль в форматі `назва поля - значення поля`
 
-info = () => (`model: ${car1.model}, manufacturer: ${car1.manufacturer}, year: ${car1.year}, maximal speed: ${car1.maxSpeed}, capacity: ${car1.capacity}`);
-console.log(info());
+console.log(car1.info());
 
 // increaseMaxSpeed (newSpeed) - яка підвищує
 // значення максимальної швидкості на значення newSpeed
