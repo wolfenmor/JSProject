@@ -99,7 +99,6 @@ function Car (model, manufacturer, year, maxSpeed, capacity) {
 let car1 = new Car("911", "Porsche", 2020, 205, 3745);
 console.log(car1);
 
-
 // drive () - яка виводить в консоль
 // `їдемо зі швидкістю ${максимальна швидкість} на годину`
 console.log(car1.drive());
@@ -108,7 +107,6 @@ console.log(car1.drive());
 // всю інформацію про автомобіль в форматі `назва поля - значення поля`
 
 console.log(car1.info());
-
 // increaseMaxSpeed (newSpeed) - яка підвищує
 // значення максимальної швидкості на значення newSpeed
 
@@ -173,5 +171,5 @@ for (let i = 0; i < prinz1.length; i++) {
 // Додатково, знайти необхідну попелюшку за допомоги функції
 // масиву find та відповідного колбеку
 
-let findpop = popeluschkas.find(find => find.name === "popeluschka2" );
+let findpop = prinz1.find(find => find.foundFoot );
 console.log(findpop);
