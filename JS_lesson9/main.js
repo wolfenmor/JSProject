@@ -142,8 +142,7 @@ for (const item of simpsons) {
 
     h1.innerText = `${item.name} ${item.surname}, ${item.age}`
     p.innerText = item.info;
-    photo.setAttribute(`alt`, item.photo)
-    photo.setAttribute(`arc`, item.photo);
+    photo.src = item.photo;
 
     div.append(h1, p, photo);
     body4.appendChild(div);
