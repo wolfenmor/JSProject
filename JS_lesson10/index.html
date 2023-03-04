@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<form name="f1">
+<form>
     <label><input type="text"
                   value=""
                   placeholder="enter your name"
@@ -25,12 +25,13 @@
                   name = "age"
     ></label>
     <br>
-    <button class="target">
-        Send
-    </button>
+    <div id="div"></div>
 </form>
+<button class="target">
+    Send
+</button>
+<br>
 
-<form>
     <button class="prev">
         Prev
     </button>
@@ -38,7 +39,28 @@
         Next
     </button>
 
+
+
+<form class="f1">
+    <label><input type="number"
+                  placeholder="кількість рядків"
+                  name="row"
+    ></label>
+    <label><input type="number"
+                  placeholder="кількість ячеєк"
+                  name="cell"
+    ></label>
+    <label><input type="text"
+                  placeholder="вмиіст ячеєк"
+                  name="text"
+    ></label>
+    <br>
+
+
 </form>
+<button class="btn">
+    Agree
+</button>
 
 <script src="main.js"></script>
 </body>

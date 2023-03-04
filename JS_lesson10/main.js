@@ -65,3 +65,12 @@ prev.addEventListener("click", function (){
 //*** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
     // При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
+let div4 = document.createElement(`div`);
+
+let btn = document.querySelector(`.btn`);
+
+btn.addEventListener(`click`, function () {
+    div4.append(`${document.forms[1].row} ${document.forms[1].cell} ${document.forms[1].text}`);
+    body.appendChild(div4);
+
+})
