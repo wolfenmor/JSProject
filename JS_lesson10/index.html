@@ -6,10 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<form>
+<form id="f1">
     <label><input type="text"
                   value=""
                   placeholder="enter your name"
@@ -25,12 +24,12 @@
                   name = "age"
     ></label>
     <br>
-    <div id="div"></div>
 </form>
 <button class="target">
     Send
 </button>
 <br>
+<hr>
 
     <button class="prev">
         Prev
@@ -39,20 +38,23 @@
         Next
     </button>
 
-
+<hr>
 
 <form class="f1">
     <label><input type="number"
                   placeholder="кількість рядків"
                   name="row"
+                  class="row"
     ></label>
     <label><input type="number"
                   placeholder="кількість ячеєк"
                   name="cell"
+                  class="cell"
     ></label>
     <label><input type="text"
                   placeholder="вмиіст ячеєк"
                   name="text"
+                  class="text"
     ></label>
     <br>
 
@@ -61,6 +63,8 @@
 <button class="btn">
     Agree
 </button>
+
+<div id="container"></div>
 
 <script src="main.js"></script>
 </body>

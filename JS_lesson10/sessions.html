@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sessions</title>
+</head>
+<body>
+<button class="target1">Click</button>
+<div class="sessions"></div>
+  <script>
+
+      // Є ще сторінка sessions.html (назва довільна),
+      // при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html.
+      // Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессі
+        let body1 = document.querySelector(`body`);
+target1 = document.querySelector(`.target1`);
+
+target1.addEventListener(`click`, function () {
+    let date = new Date().toLocaleString();
+
+    let div = document.createElement(`div`);
+    div.append(date);
+    body1.appendChild(div);
+
+
+})
+
+  </script>
+</body>
+</html>
