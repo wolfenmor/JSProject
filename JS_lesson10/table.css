@@ -1,0 +1,17 @@
+td.cell {
+    background: cornflowerblue;
+    width: 200px;
+    height: 50px;
+}
+.box {
+    background: forestgreen;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}

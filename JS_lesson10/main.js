@@ -15,7 +15,7 @@ target.addEventListener(`click`, function (){
 
 // є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який
 // при кожному перезавантажені сторінки буде додавати до неї +1
-let count = JSON.parse(localStorage.getItem("count"));
+let count = JSON.parse(localStorage.getItem("count")) || []
 
 if (count && count.length > 0) {
     count = 0;
@@ -87,10 +87,12 @@ btn.addEventListener(`click`, function () {
 
     for (let i = 0; i < rows; i++) {
         let row = document.createElement("tr");
+        row.className = "row"
 
         for (let j = 0; j < cells; j++) {
             let cell = document.createElement("td");
             cell.innerText = text;
+            cell.className = "cell"
             row.appendChild(cell);
 
         }
