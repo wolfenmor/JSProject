@@ -29,6 +29,8 @@ let div1 = document.createElement("div");
 div1.append(count);
 body.appendChild(div1);
 
+console.log(localStorage);
+
 // Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховще, в масив sessions
 // зберігається інформація про дату та час відвідування сторінки. Є ще сторінка sessions.html (назва довільна),
 // при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html.
@@ -58,7 +60,7 @@ let next = document.querySelector(`.next`);
 next.addEventListener("click",function (){
     let div2 = document.createElement(`div`);
     let nextTen = nums.slice(count1, count1 += 10);
-
+    count1 += 10;
     div2.append(nextTen.join(", "));
     body.appendChild(div2);
 
@@ -93,11 +95,12 @@ btn.addEventListener(`click`, function () {
             let cell = document.createElement("td");
             cell.innerText = text;
             cell.className = "cell"
+
             row.appendChild(cell);
 
         }
         table.appendChild(row);
     }
-    let container = document.querySelector("#container");
+    let container = document.querySelector(".container");
     container.appendChild(table);
 })
