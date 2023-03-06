@@ -60,7 +60,7 @@ let next = document.querySelector(`.next`);
 next.addEventListener("click",function (){
     let div2 = document.createElement(`div`);
     let nextTen = nums.slice(count1, count1 += 10);
-    count1 += 10;
+
     div2.append(nextTen.join(", "));
     body.appendChild(div2);
 
