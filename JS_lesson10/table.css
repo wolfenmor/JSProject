@@ -15,3 +15,7 @@ td.cell {
     display: flex;
     justify-content: center;
 }
+.box1 {
+    display: block;
+    border: 1px;
+}

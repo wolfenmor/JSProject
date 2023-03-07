@@ -6,9 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>sessions</title>
+    <link rel="stylesheet" href="table.css">
 </head>
 <body>
-<button class="target1">Click</button>
 <div class="sessions"></div>
   <script>
 
@@ -16,18 +16,35 @@
       // при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html.
       // Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессі
         let body1 = document.querySelector(`body`);
-target1 = document.querySelector(`.target1`);
+      let sessions = JSON.parse(localStorage.getItem("sessions")) || []
+      for (const session of sessions) {
+          let div = document.createElement(`div`);
 
-target1.addEventListener(`click`, function () {
-    let date = new Date().toLocaleString();
+          const obj = format(session);
 
-    let div = document.createElement(`div`);
-    div.append(date);
-    body1.appendChild(div);
+          div.className = `box1`;
 
+          div.innerText = `Date : ${obj.date}/ ${obj.month}/ ${obj.year}.
+           Time : ${obj.hour}/ ${obj.minute}/ ${obj.second}`
+        body1.appendChild(div);
+      }
+      function format (dateStr) {
+          const date = new Date(dateStr).getDate().toString();
+          const year = new Date(dateStr).getFullYear().toString();
+          const month = (new Date(dateStr).getMonth() + 1).toString();
+          const hour = new Date(dateStr).getHours().toString();
+          const minute = new Date(dateStr).getMinutes().toString();
+          const second = new Date(dateStr).getSeconds().toString();
+      return {
+          year: year,
+          month: month,
+          hour: hour,
+          minute: minute,
+          second: second,
+          date: date
+         }
 
-})
-
+      }
   </script>
 </body>
 </html>

@@ -15,18 +15,15 @@ target.addEventListener(`click`, function (){
 
 // є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який
 // при кожному перезавантажені сторінки буде додавати до неї +1
-let count = JSON.parse(localStorage.getItem("count"))
+let count = JSON.parse(localStorage.getItem("count")) || []
 
-if (count && count.length > 0) {
-    count = 0;
-}
 count++;
 
 localStorage.setItem("count", count);
 
 let div1 = document.createElement("div");
 
-div1.append(count);
+div1.append(`Count: ${count}`);
 body.appendChild(div1);
 
 console.log(localStorage);
@@ -40,7 +37,7 @@ let now = new Date();
 let timeStr = now.toLocaleString();
 
 let sessions = JSON.parse(localStorage.getItem("sessions")) || []
-sessions.push(timeStr);
+sessions.push(timeStr, navigator.appName, navigator.appCodeName);
 
 localStorage.setItem("sessions", JSON.stringify(sessions));
 
@@ -74,7 +71,6 @@ prev.addEventListener("click", function (){
     div3.append(prevTen.join(", "))
     body.appendChild(div3);
 });
-
 //*** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
     // При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
