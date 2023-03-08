@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="add task4.js, in lesson4 add additional.js">
+    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="end JS_lesson10">
+      <change afterPath="$PROJECT_DIR$/additional/additional6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional/additional6/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task4/task4.js" beforeDir="false" afterPath="$PROJECT_DIR$/task4/task4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson3/additional/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional6/additional/additional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson3/additional/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional6/additional/additional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson4/tasks2/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/task2/additional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson4/tasks2/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/task2/additional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/task4.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/task4/task4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/task4.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/task4/task4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -55,6 +62,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maksim K\IdeaProjects\JSProject\additional\additional6" />
+      <recent name="C:\Users\Maksim K\IdeaProjects\JSProject\additional" />
+      <recent name="C:\Users\Maksim K\IdeaProjects\JSProject\additional\task4" />
       <recent name="C:\Users\Maksim K\IdeaProjects\JSProject\JS_lesson4\additional" />
       <recent name="C:\Users\Maksim K\IdeaProjects\JSProject\JS_lesson3\additional" />
     </key>
@@ -88,7 +98,20 @@
       <workItem from="1676677210768" duration="17000" />
       <workItem from="1676752113742" duration="17958000" />
       <workItem from="1676815171108" duration="5654000" />
-      <workItem from="1676996631195" duration="18756000" />
+      <workItem from="1676996631195" duration="18950000" />
+      <workItem from="1677331491759" duration="10753000" />
+      <workItem from="1677345334025" duration="22891000" />
+      <workItem from="1677507876297" duration="1248000" />
+      <workItem from="1677511585147" duration="596000" />
+      <workItem from="1677600242248" duration="5139000" />
+      <workItem from="1677762682256" duration="10645000" />
+      <workItem from="1677877342661" duration="21793000" />
+      <workItem from="1677940082034" duration="3553000" />
+      <workItem from="1677960610881" duration="6511000" />
+      <workItem from="1678012268827" duration="13233000" />
+      <workItem from="1678043384621" duration="8288000" />
+      <workItem from="1678107885334" duration="395000" />
+      <workItem from="1678196016272" duration="32724000" />
     </task>
     <task id="LOCAL-00001" summary="Add first lesson JS">
       <created>1675207359460</created>
@@ -230,7 +253,126 @@
       <option name="project" value="LOCAL" />
       <updated>1677096386740</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add task4.js, in lesson4 add additional.js">
+      <created>1677097305399</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677097305399</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add JS_lesson8">
+      <created>1677443875152</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1677443875152</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add JS_lesson8">
+      <created>1677508705477</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677508705477</updated>
+    </task>
+    <task id="LOCAL-00024" summary="changed JS_lesson8">
+      <created>1677601868975</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677601868975</updated>
+    </task>
+    <task id="LOCAL-00025" summary="JS_lesson9">
+      <created>1677700818634</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677700818634</updated>
+    </task>
+    <task id="LOCAL-00026" summary="JS_lesson9">
+      <created>1677803246207</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677803246207</updated>
+    </task>
+    <task id="LOCAL-00027" summary="JS_lesson9">
+      <created>1677878864760</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677878864760</updated>
+    </task>
+    <task id="LOCAL-00028" summary="JS_lesson10">
+      <created>1677887667438</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677887667438</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add JS_lesson10">
+      <created>1677940055329</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677940055329</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add JS_lesson10">
+      <created>1677945419038</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677945419038</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Change JS_lesson10">
+      <created>1677969658108</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677969658108</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Change JS_lesson10">
+      <created>1678028349709</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678028349709</updated>
+    </task>
+    <task id="LOCAL-00033" summary="end JS_lesson10">
+      <created>1678047597627</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1678047597627</updated>
+    </task>
+    <task id="LOCAL-00034" summary="end JS_lesson10">
+      <created>1678105602991</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1678105602991</updated>
+    </task>
+    <task id="LOCAL-00035" summary="end JS_lesson10">
+      <created>1678105712645</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1678105712645</updated>
+    </task>
+    <task id="LOCAL-00036" summary="end JS_lesson10">
+      <created>1678107749394</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1678107749394</updated>
+    </task>
+    <task id="LOCAL-00037" summary="end JS_lesson10">
+      <created>1678227158789</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1678227158789</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +403,25 @@
     <MESSAGE value="end lesson6" />
     <MESSAGE value="changed lesson6 main.js" />
     <MESSAGE value="add task4.js, in lesson4 add additional.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task4.js, in lesson4 add additional.js" />
+    <MESSAGE value="add JS_lesson8" />
+    <MESSAGE value="changed JS_lesson8" />
+    <MESSAGE value="JS_lesson9" />
+    <MESSAGE value="JS_lesson10" />
+    <MESSAGE value="add JS_lesson10" />
+    <MESSAGE value="Change JS_lesson10" />
+    <MESSAGE value="end JS_lesson10" />
+    <option name="LAST_COMMIT_MESSAGE" value="end JS_lesson10" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/additional/additional6/main.js</url>
+          <line>162</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
