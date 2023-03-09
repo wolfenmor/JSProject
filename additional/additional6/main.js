@@ -197,3 +197,27 @@ for (let i = 0; i < books.length; i++) {
 }
 console.log(maxBook);
 console.log(maxPage);
+
+// знайти книжку/ки з найдовшою назвою
+
+function longestBook (books) {
+    let longestTitle = "";
+
+    for (let i = 0; i < books.length; i++) {
+        if (books[i].title.length > longestTitle.length) {
+
+            longestTitle = books[i].title
+        }
+    }
+    return longestTitle;
+}
+
+console.log(longestBook(books));
+
+// вісортувати книжки по кількості сторінок по зростанню
+
+let sort = books.sort((a, b) => {
+
+    return a.page - b.page;
+})
+console.log(sort);

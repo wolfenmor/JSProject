@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="end JS_lesson10">
-      <change afterPath="$PROJECT_DIR$/additional/additional6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional/additional6/main.js" afterDir="false" />
+    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="add additional.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_lesson3/additional/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional6/additional/additional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_lesson3/additional/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional6/additional/additional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_lesson4/tasks2/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/task2/additional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_lesson4/tasks2/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/task2/additional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task4/task4.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/task4/task4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task4/task4.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/task4/task4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/additional/additional6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +105,8 @@
       <workItem from="1678043384621" duration="8288000" />
       <workItem from="1678107885334" duration="395000" />
       <workItem from="1678196016272" duration="32724000" />
+      <workItem from="1678312975845" duration="91000" />
+      <workItem from="1678377499125" duration="1237000" />
     </task>
     <task id="LOCAL-00001" summary="Add first lesson JS">
       <created>1675207359460</created>
@@ -372,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678227158789</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add additional.js">
+      <created>1678313061927</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1678313061927</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +412,8 @@
     <MESSAGE value="add JS_lesson10" />
     <MESSAGE value="Change JS_lesson10" />
     <MESSAGE value="end JS_lesson10" />
-    <option name="LAST_COMMIT_MESSAGE" value="end JS_lesson10" />
+    <MESSAGE value="add additional.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add additional.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,7 +421,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/additional/additional6/main.js</url>
           <line>162</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
