@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<script>
+
+    let url = new URL(location.href)
+    let json = url.searchParams.get("data");
+    let user = JSON.parse(json)
+    console.log(user)
+
+    let ul = document.createElement(`ul`);
+    for (const key in user) {
+
+        let li = document.createElement(`li`);
+        li.classList.add("li")
+        li.innerText = `${key}: ${str(user[key])}`
+        ul.appendChild(li);
+    }
+    document.body.appendChild(ul);
+
+    function str(value) {
+        if (typeof value === "object") {
+            if (Array.isArray(value)) {
+                return `${user}`;
+            } else  {
+                return `${Object.keys(value).map(key => `"${key}": ${str(value[key])}`)}`;
+            }
+
+        } else {
+            return value;
+        }
+    }
+</script>
+</body>
+</html>
