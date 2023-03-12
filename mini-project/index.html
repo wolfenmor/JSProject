@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        div{
+            background: aqua;
+            width: 200px;
+            height: 150px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 2px solid;
+            flex-direction: column;
+            margin-bottom: 10px ;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+
+        }
+
+    </style>
+</head>
+<body>
+<script>
+
+    fetch("https://jsonplaceholder.typicode.com/users")
+        .then(value => value.json())
+        .then(users => {
+            for (const user of users) {
+                let div = document.createElement(`div`);
+                div.innerText = `${user.id} ${user.name}`
+                div.className = "card"
+
+                let btn = document.createElement("button");
+                btn.innerText = "click";
+                btn.addEventListener("click", function (){
+
+                    location.href = "user-details.html?data=" + JSON.stringify(user);
+                });
+
+                div.appendChild(btn);
+                document.body.appendChild(div);
+            }
+        })
+</script>
+</body>
+</html>
