@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="add additional6.js">
-      <change afterPath="$PROJECT_DIR$/JS_lesson12/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_lesson12/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_lesson12/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_lesson12/users.html" afterDir="false" />
+    <list default="true" id="d0319463-9438-4724-afc6-88b4981c442e" name="Changes" comment="add users.html, user-details.html, post-details.html">
+      <change afterPath="$PROJECT_DIR$/mini-project/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_lesson10/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson10/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_lesson10/sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson10/sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/user-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +109,8 @@
       <workItem from="1678196016272" duration="32724000" />
       <workItem from="1678312975845" duration="91000" />
       <workItem from="1678377499125" duration="4032000" />
-      <workItem from="1678534492069" duration="14878000" />
+      <workItem from="1678534492069" duration="33940000" />
+      <workItem from="1678814350846" duration="2102000" />
     </task>
     <task id="LOCAL-00001" summary="Add first lesson JS">
       <created>1675207359460</created>
@@ -387,7 +385,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678381663839</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add users.html, user-details.html">
+      <created>1678567475929</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1678567475929</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add, end users.html, user-details.html, post-details.html">
+      <created>1678655166270</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1678655166270</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add users.html, user-details.html, post-details.html">
+      <created>1678660802840</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1678660802840</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +446,10 @@
     <MESSAGE value="end JS_lesson10" />
     <MESSAGE value="add additional.js" />
     <MESSAGE value="add additional6.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add additional6.js" />
+    <MESSAGE value="add users.html, user-details.html" />
+    <MESSAGE value="add, end users.html, user-details.html, post-details.html" />
+    <MESSAGE value="add users.html, user-details.html, post-details.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add users.html, user-details.html, post-details.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
